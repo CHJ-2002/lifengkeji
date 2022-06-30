@@ -1,0 +1,33 @@
+#text {
+  color: #000 !important;
+}
+.container .row .title {
+  font-size: 2em;
+  opacity: 0.9;
+  margin-top: 80px;
+  padding: 2vh 0 3vh 4vw;
+  font-weight: bold;
+  border-bottom: 1px solid #cccaca;
+}
+.container .row .content {
+  padding-left: 5vw;
+}
+.container .row .content h3 {
+  height: 28px;
+  padding: 10px;
+  font-family: FangSong;
+  font-weight: bold;
+  opacity: 0.9;
+}
+.container .row .content h3 .glyphicon {
+  opacity: 0.85;
+}
+.container .row .content img {
+  width: 100%;
+  padding-right: 5vw;
+}
+@media (max-width: 991px) {
+  .container .row img {
+    padding-top: 20px;
+  }
+}
